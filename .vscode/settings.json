@@ -1,0 +1,22 @@
+{
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": false
+  },
+  "search.useIgnoreFiles": false,
+  "files.include": {
+    "packages/app/**/*": true,
+    "packages/server/**/*": true
+  },
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#ddd",
+    "titleBar.inactiveForeground": "#ddd",
+    "titleBar.activeBackground": "#254e4b",
+    "titleBar.inactiveBackground": "#287b5f"
+  }
+}

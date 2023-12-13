@@ -5,7 +5,8 @@
   "license": "ISC",
   "description": "MMC-Server (websocket) and MMC-App (svelte-kit)",
   "scripts": {
-    "dev": "mmc-app",
+    "preinstall": "./scripts/preinstall.sh",
+    "app": "mmc-app",
     "test": "mmc-app test",
     "server": "mmc-server"
   },
