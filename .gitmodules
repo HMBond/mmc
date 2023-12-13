@@ -1,0 +1,6 @@
+[submodule "packages/app"]
+	path = packages/app
+	url = https://github.com/HMBond/mmc-app
+[submodule "packages/server"]
+	path = packages/server
+	url = https://github.com/HMBond/mmc-server
