@@ -1,0 +1,20 @@
+{
+  "name": "mmc",
+  "version": "1.0.0",
+  "author": "HM Bond",
+  "license": "ISC",
+  "description": "MMC-Server (websocket) and MMC-App (svelte-kit)",
+  "scripts": {
+    "dev": "mmc-app",
+    "test": "mmc-app test",
+    "server": "mmc-server"
+  },
+  "devDependencies": {
+    "mmc-app": "file:./packages/app",
+    "mmc-server": "file:./packages/server"
+  },
+  "workspaces": [
+    "packages/app",
+    "packages/server"
+  ]
+}
