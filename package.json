@@ -7,7 +7,7 @@
   "scripts": {
     "preinstall": "./scripts/preinstall.sh",
     "app": "mmc-app",
-    "test": "mmc-app test",
+    "test": "mmc-app test --run",
     "server": "mmc-server"
   },
   "devDependencies": {

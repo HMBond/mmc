@@ -8,9 +8,16 @@
     "**/Thumbs.db": true,
     "**/node_modules": true,
     "packages/app/.svelte-kit": true,
-    "packages/app/build": true
+    "packages/app/build": true,
+    "**/packages/server/dist": true
   },
   "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/packages/server/dist": true
+  },
   "workbench.colorCustomizations": {
     "titleBar.activeForeground": "#ddd",
     "titleBar.inactiveForeground": "#ddd",
