@@ -17,5 +17,13 @@
   "workspaces": [
     "packages/app",
     "packages/server"
-  ]
+  ],
+  "dependencies": {
+    "@types/node": "^20.10.6",
+    "@typescript-eslint/eslint-plugin": "^6.18.0",
+    "@typescript-eslint/parser": "^6.18.0",
+    "eslint": "^8.56.0",
+    "jsdom": "^23.2.0",
+    "webmidi": "^3.1.8"
+  }
 }
